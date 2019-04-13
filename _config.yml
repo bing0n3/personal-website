@@ -57,3 +57,6 @@ topics:
 
   - name: Machine Learning
     web_url: https://github.com/topics/machine-learning
+
+repositories:
+  - SonataAnnotationBundle
