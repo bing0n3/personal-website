@@ -1,3 +1,103 @@
----
-layout: home
----
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.2.0/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <title>bing0ne</title>
+    <style>
+      body {
+        background: #fff;
+      }
+      #link {
+        color: #4c566a;
+      }
+      #title {
+        color: #2e3440;
+      }
+      #text-m {
+        color: #4c566a;
+      }
+
+      #footer {
+        color: #434c5e;
+      }
+
+      @media screen and (prefers-color-scheme: dark) {
+        body {
+          background: #2e3440;
+        }
+        #link {
+          color: #d8dee9;
+        }
+        #title {
+          color: #d8dee9;
+        }
+        #text-m {
+          color: #eceff4;
+        }
+        #footer {
+          color: #eceff4;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      class="rounded-lg justify-center container mx-auto w-4/5 md:w-3/5 lg:w-3/5 xl:3/5"
+    >
+      <div class="h-32"></div>
+      <div>
+        <p class="font-mono mb-5 text-4xl xl:text-6xl font-bold" id="title">
+          bing0ne
+        </p>
+      </div>
+      <div
+        class="leading-relaxed text-lg font-light sm:text-xl lg:text-2xl xl:text-2xl"
+        id="text-m"
+      >
+        <p>
+          I am a graduate student in Computer Science from
+          <a class="italic" href="https://case.edu"
+            >Case Western Reserve University</a
+          >, interested in Go.
+        </p>
+        <p class="my-5">Welcome to my little portfolio on the Internet.</p>
+      </div>
+      <div
+        class="my-16 font-light text-base sm:text-lg md:text-xl lg:text-xl xl:text-xl leading-relaxed"
+      >
+        <div class="inline-block pr-12">
+          <a id="link" class="hover:underline" href="https://blog.bing0ne.com"
+            >Blog</a
+          >
+        </div>
+        <div class="inline-block  pr-12">
+          <a
+            id="link"
+            class="hover:underline"
+            href="https://twitter.com/bing0ne"
+            >Twitter</a
+          >
+        </div>
+        <div class="inline-block  pr-12">
+          <a id="link" class="hover:underline" href="https://github.com/bing0n3"
+            >Github</a
+          >
+        </div>
+        <div class="inline-block pr-12">
+          <a id="link" class="hover:underline" href="https://t.me/bing0ne"
+            >Telegram</a
+          >
+        </div>
+      </div>
+      <div class="mb=32 text-xl font-bold" id="footer">
+        IF THIS THEN THAT.
+      </div>
+    </div>
+  </body>
+</html>
